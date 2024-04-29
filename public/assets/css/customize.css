@@ -1,0 +1,19 @@
+.uk-flex {
+    display: flex;
+    /* Bật chế độ Flexbox cho container */
+    display: -webkit-flex;
+    display: -ms-flexbox;
+}
+
+.uk-flex-space-between {
+    justify-content: space-between;
+    -ms-flex-pack: justify;
+    /* Phân bố các phần tử cách đều nhau ở hai đầu container */
+}
+
+.uk-flex-middle {
+    align-items: center;
+    -webkit-box-align: center;
+    -ms-flex-align: center;
+    /* Căn chỉnh các phần tử theo chiều dọc ở giữa container */
+}
